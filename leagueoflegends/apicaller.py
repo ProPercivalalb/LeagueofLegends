@@ -18,4 +18,8 @@ def request_json(url):
     data = json.loads(json_data)
     return data
 
-#request_json('https://euw.api.pvp.net/api/lol/euw/v1.4/summoner/by-name/percivalalb?api_key=fa3518a3-2076-40e9-adfd-2f19bf27a502')
+#def get_summoner_by_name(name,reigen)
+
+print(request_json('https://euw.api.pvp.net/api/lol/euw/v1.4/summoner/by-name/percivalalb?api_key=fa3518a3-2076-40e9-adfd-2f19bf27a502'))
+
+print(request_json('https://euw.api.pvp.net/api/lol/euw/v2.2/matchhistory/46839375?rankedQueues=RANKED_TEAM_3x3&api_key=fa3518a3-2076-40e9-adfd-2f19bf27a502'))
